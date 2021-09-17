@@ -19,10 +19,11 @@ public class BAi5 {
         array[i] = scanner.nextInt();
     }
     int sum1 = 0 ;
-    for(int i = 0 ; i <= 5 ; i++){
+    for(int i = 0 ; i <= n ; i++){
         sum1 += array[i];
         
     }
+    System.out.println("tong day so la "+sum1);
        
     }
    

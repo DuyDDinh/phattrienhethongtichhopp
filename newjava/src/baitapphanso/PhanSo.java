@@ -41,6 +41,10 @@ public class PhanSo {
         this.setTu(this.getTu() / i);
         this.setMau(this.getMau() / i);
     }
+    public void giatriThuc(PhanSo ps) {
+        double t = (this.getTu() / ps.getMau()) +(this.getTu()%ps.getMau() );
+        System.out.println("gia tri tuc: "+t);
+    }
      
     public void congPhanSo(PhanSo ps) {
         int ts = this.getTu() * ps.getMau() + ps.getTu() * this.getMau();
@@ -64,6 +68,12 @@ public class PhanSo {
         PhanSo phanSoTich = new PhanSo(ts, ms);
         phanSoTich.toiGianPhanSo();
         System.out.println("Tích hai phân số = " + phanSoTich.tu + "/" + phanSoTich.mau);
+    }
+    public void ngichdao(PhanSo ps) {
+        
+        int ts1 = this.getMau();
+        int ts2 = this.getTu();
+        System.out.println("NGhich dao  = " + ts1 + "/" + ts2);
     }
      
     public void chiaPhanSo(PhanSo ps) {

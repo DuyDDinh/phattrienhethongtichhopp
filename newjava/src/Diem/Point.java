@@ -1,4 +1,4 @@
-package Bai2;
+package Diem;
 
 import java.util.Scanner;
 

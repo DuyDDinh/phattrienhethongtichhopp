@@ -14,7 +14,7 @@ public class Bai3 {
             if (denta >0 ) {
                 double nghiem1 =( -b + Math.sqrt(denta) /2*a) ; 
                 double nghiem2 =( -b - Math.sqrt(denta) /2*a) ;
-                System.out.println(" nghiem " + nghiem1 +"___" + nghiem2);
+                System.out.println(" nghi1em " + nghiem1 +"___" +4 nghiem2);
             } else {
                 System.out.println(" khong co nghiem");
             }

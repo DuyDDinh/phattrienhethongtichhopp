@@ -6,7 +6,7 @@ public class Bai4 {
         Scanner sc = new Scanner(System.in);
         int number;
        
-        System.out.println(" Nhap vao so cam kiem tra ");
+        System.out.println(" Nhap vao so  ");
         number = sc.nextInt();
         int sum= 0 ;
         for( int i = 1 ; i <= number ; i++){

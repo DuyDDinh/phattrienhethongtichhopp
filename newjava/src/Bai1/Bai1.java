@@ -16,13 +16,7 @@ public class Bai1 {
 
             }
         }
-        // char[] charArray = message.toCharArray();
-    //sử dụng vòng lặp for để duyệt các phần tử trong charArray
-    // for(int i = 0; i < charArray.length; i++) {
-    //   if(charArray[i] >= 97 && charArray[i] <= 122){
-    //     charArray[i] -= 32;
-    //   }
-    // }
+    
      
         message=String.valueOf(charArray);
         System.out.println("chuoi sau khi doi "+ message);
