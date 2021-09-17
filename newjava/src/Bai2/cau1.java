@@ -16,13 +16,12 @@ public class cau1 {
 
         
     }
-
-    void intoadoa(  int x1,int y1,int x2,int y2) {
+    public void printtoado(int x1,int y1) {
         System.out.println("toa do diem X ("+x1+","+y1+")");
     }
     public static void main(String[] args) {
      gantoado();
-     intoadoa();
+     printtoado();
         
     }
     
