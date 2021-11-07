@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "newjava/src/socket",
+        "newjava/src/Thread",
+        "UDPSocket",
+        "TCPdemo",
+        "Chat",
+        "TCP"
+    ]
+}
